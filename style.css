@@ -1,7 +1,7 @@
 body {
     
     height: 90vh;
-    background-color:aqua;
+    background-color:pink;
 }
 
 #ans {
@@ -77,12 +77,6 @@ body {
     background-color:  #ff8e9f;
 }
 
-.gif_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .qrimage{
     display: block;
     margin-left: auto;
@@ -96,6 +90,11 @@ img
     max-width: 100%;
     height: auto;
     cursor: pointer;
+}
+.gif_container{
+    max-width: 30%;
+    display: flex;
+    justify-content: right;
 }
 
 #deviceWarning {
@@ -150,4 +149,27 @@ img
         height: auto;
         width: auto;
     }
+}
+
+.all{
+    display: flex;
+    align-items: center;
+}
+.images{
+    width: 50%;
+    height: 50%;
+}
+.images img{
+    width: 35%;
+    height: 30%;
+    border-radius: 50px;
+}
+.img_1{
+    margin-left: 20%;
+}
+.img_3{
+    margin-left: 30%;
+}
+.img_2{
+    margin-left: 10%;
 }
