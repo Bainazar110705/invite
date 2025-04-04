@@ -122,7 +122,7 @@ img
     text-align: center;
     font-size: 50px;
     color: #333;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .text_2{
         font-family: 'Poppins', sans-serif; /* Modern and clean font */
@@ -135,6 +135,20 @@ img
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
         margin: 20px 0; /* Space around text */
         line-height: 50px;
+        margin-top: 0;
+}
+.link_1{
+    text-decoration: none; /* Remove underline */
+    justify-content: center;
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    font-size: 2rem;
+    font-weight: 400; /* Bold for emphasis */
+    line-height: 1.2; 
+    color: #089db5;
+    text-align: center;
+    letter-spacing: 1px; /* Slight spacing for elegance */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth *//* Space around text */
+    line-height: 50px;
 }
 
 @media only screen and (max-width: 600px) {
